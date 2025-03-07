@@ -1,0 +1,101 @@
+General styling
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Form input styling */
+form input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Buttons styling */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* View button */
+button.view {
+  background-color: #ffcc00;
+  color: black;
+}
+
+button.view:hover {
+  background-color: #e6b800;
+}
+
+/* Edit button */
+button.edit {
+  background-color: #17a2b8;
+  color: white;
+}
+
+button.edit:hover {
+  background-color: #138496;
+}
+
+/* Delete button */
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Save button */
+button.save {
+  background-color: #28a745;
+  color: white;
+}
+
+button.save:hover {
+  background-color: #218838;
+}
